@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*============
+    Body Styles
+==============*/
+
+body {
+    box-sizing: border-box;
+    min-height: auto;
+    max-width: 100%;
+    background: rgb(29,29,29,1);
+background: linear-gradient(0deg, rgba(255, 255, 255,1.0) 0%, rgba(29,29,29,1) 100%);
+}
+  
+
+/*===============
+    NavBar Styles
+=================*/
+
+nav {
+    background: rgba(181,131,142,0.33);
+}
+
+nav {
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0%;
+    right: auto;
+}
+
+nav img{
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: #f2e8cf;
+}
+
+nav a:hover {
+    color: #2ec4b6;
+    font-size: 20px;
+}
+
+nav li {
+    text-align: center;
+    margin: 20%;
+    padding: 10%;
+    border: 1px;
+    border-bottom-style: solid;
+}
+
+nav ul {
+    margin: 50% 0;
+}
+
+/*===============
+main content styles
+=================*/
+
+.main-title {
+    margin: 20%;
+    font-size: 2.5rem; 
+}
+
+  
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+/*=================
+    SM Icon Styles
+===================*/
+
+.Soc-Med {
+    text-align: right;
+    padding: 1%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.fa:hover {
+    color: #2ec4b6;
+    width: 2%;
+}
+
+.fa-instagram {
+  border: 1px solid #f2e8cf;
+  color: #b5838d;
+}
+
+.fa-twitter {
+  border: 1px solid #f2e8cf;
+  color: #b5838d;
+}
+
+.fa-linkedin {
+  border: 1px solid #f2e8cf;
+  color: #b5838d;
+}
+
+.fa-github {
+  border: 1px solid #f2e8cf;
+  color: #b5838d;
+}
+
+/*=================
+    Typography
+===================*/
+
+.main-title h3,
+.main-title h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    color: #f2e8cf;
+}
+
+/*===================
+    Button Styles
+=====================*/
+
+.main-title button {
+    width: 10.75rem;
+    padding: 0.625rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    margin-top: 5%;
+    text-transform: uppercase;
+    background: #b5838d;
+    color: #f2e8cf;
+    border-radius: 5px;
+}
+
+hr{
+    color: #f2e8cf;
+    width: 75%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 10% 5%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.fas{
+    margin: 5% 0;
+    color: rgb(29,29,29,1);
+}
+
+.about {
+    max-width: 100%;
+    margin: 5% auto; 
+    background: linear-gradient(to bottom, rgba(133, 133, 128, 0.2) 5%, rgba(205,205,205,255) 80%), url("../img/brooklyn.png");
+    background-size: cover;
+}
+
+
+.about-images p {
+    width: 40%;
+    color: rgb(29,29,29,1);
+    margin: 2% auto;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
