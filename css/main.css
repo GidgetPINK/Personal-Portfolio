@@ -196,11 +196,12 @@ hr{
     width: 75%;
 }
 
-p {
+.about-images p {
     font-size: 18px;
     line-height: 1.5em;
     margin: 10% 5%;
     font-family: 'Lato', sans-serif;
+    padding-top: 5%;
 }
 
 
@@ -214,6 +215,7 @@ p {
     margin: 5% auto; 
     background: linear-gradient(to bottom, rgba(133, 133, 128, 0.2) 5%, rgba(205,205,205,255) 80%), url("../img/brooklyn.png");
     background-size: cover;
+    height: 500px;
 }
 
 
@@ -224,6 +226,7 @@ p {
     font-size: 1.5rem;
     text-align: center;
     padding-bottom: 5%;
+    font-family: 'Lato', sans-serif;
 }
 
 .column{
@@ -231,3 +234,67 @@ p {
     justify-content: center;
     margin-bottom: 20%;
 }
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .header img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header p {
+    font-size: 48px;
+  }
+
+.cards {
+    width: 100%;
+  }
+  
+  .card {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px -2px #000;
+    background-color: #FFF;
+    margin-bottom: 30px;
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    margin-right: 20px;
+  }
+  
+  .card .name {
+    font-size: 2.4rem;
+  }
+  
+  .card p {
+    font-size: 1.4rem;
+    margin-bottom: 3px;
+  }
+  
+  .card .username {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 3px 0 10px;
+  }
+  
