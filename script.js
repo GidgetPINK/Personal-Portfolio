@@ -9,5 +9,10 @@ document.addEventListener('scroll', e => {
     }
 });
 
-const URL = get("https://api.github.com/users/GidgetPINK")
-console.log(URL);
+const URL = "https://api.github.com/users/GidgetPINK"
+
+axios.get(URL)
+.then(res => {
+    const data = res.data;
+    console.log(data)
+})
